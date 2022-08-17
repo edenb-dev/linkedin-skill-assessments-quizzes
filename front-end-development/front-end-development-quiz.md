@@ -385,7 +385,7 @@ const user = {
 - [x] all \<a> tags whose href attribute ends with "org"
 - [ ] all \<a> tags whose href attribute contains "org"
 
-#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?
+#### Q41. Which choice <em>is not a result</em> of invoking strict mode in JavaScript?
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
@@ -734,3 +734,68 @@ box {
 - [ ] the opacity of the color indicating 38% of fully opacity
 - [ ] the brightness of the color matching a brightness of 38%
 - [ ] the intensity of the color matching an intensity of 38%
+
+#### Q74. What is a skiplink?
+
+- [ ] a replacement for inaccessible navigation
+- [ ] a method of allowing a screen-reader user to skip between headings
+- [x] a link placed early in the <body> to allow the user to skip to the main content
+- [ ] a link to allow users to skip video that automatically plays on a website
+
+[Source: W3 Schools]("https://www.w3schools.com/accessibility/accessibility_skip_links.php")
+
+#### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
+
+- [ ] it will speed up loading of the image when used with a JavaScript library
+- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [x] In supporting browsers, images will load only when they are in or near the visible viewport
+- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+
+#### Q76. What is GraphQL?
+
+- [ ] a React library for storing data
+- [ ] a Vue.js library for storing and manipulating data
+- [x] a query language for fetching data from APIs
+- [ ] a new database format designed to replace MySQL
+
+#### Q77. Wich choice will place a multiline text input field on the page?
+
+- [ ] `<multiline></multiline>`
+- [x] `<textarea></textarea>`
+- [ ] `<input type="multiline">`
+- [ ] `<input type="textarea">`
+
+#### Q78. Which browser is not based on Chromium?
+
+- [x] Firefox
+- [ ] Opera
+- [ ] Chrome
+- [ ] Edge
+
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+
+```
+@font-face {
+    font-family: Helvetica;
+    font-display: swap;
+}
+```
+
+- [ ] The browser will show no content until the web font loads.
+- [ ] The browser will ignore the web font.
+- [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
+- [x] The browser will load a system font while waiting for the web font to load.
+
+#### Q80. What does the term "code splitting" mean with regard to JavasScript performance?
+
+- [ ] allowing the browser to ignore code that it believes will perform badly
+- [x] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] removing unused code from JavaScript files
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+
+#### Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?
+
+- [ ] div
+- [x] td
+- [ ] figure
+- [ ] p

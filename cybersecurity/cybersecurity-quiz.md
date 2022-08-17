@@ -3,8 +3,8 @@
 #### Q1. According to the shared responsibility model, which cloud computing model places the most responsibility on the cloud service provider (CSP)?
 
 - [ ] Hybrid Cloud
-- [ ] Software as a Service (SaaS)
-- [x] Platform as a Service (PaaS)
+- [x] Software as a Service (SaaS)
+- [ ] Platform as a Service (PaaS)
 - [ ] Infrastructure as a Service (IaaS)
 
 #### Q2. Which option removes the risk of multitenancy in cloud computing?
@@ -395,10 +395,10 @@ autopsy is for forensic analysis
 
 #### Q51. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
 
-- [x] Eradication / Remediation
+- [ ] Eradication / Remediation
 - [ ] Certification
 - [ ] Reporting
-- [ ] Lessons Learned
+- [x] Lessons Learned
 
 #### Q52. Which encryption type uses a public and private key pair for encrypting and decrypting data?
 
@@ -698,7 +698,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] defense-in-depth
 - [ ] least privilege
 
-[Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
+[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
 
 #### Q91. Which option describes a core principle of DevSecOps?
 
@@ -826,3 +826,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] 1
 - [ ] 3
 - [ ] 4
+
+#### Q108. Which option will not actively identify a secuirty incident?
+
+- [ ] Extended Detection and Response (XDR)
+- [x] Cloud Secuiry Posture Management (CSPM)
+- [ ] Secuirty Infromation Event Managment (SEIM)
+- [ ] Endpoint Detection and Response (EDR)

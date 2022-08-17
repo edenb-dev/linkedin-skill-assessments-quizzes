@@ -9,13 +9,12 @@
 
 #### Q2. What command lets you create a connection between a local and remote repository?
 
-- [x] git remote add new
+- [ ] git remote add new
 - [x] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
 
-The command is git remote add. The new added connection can be named origin or new. The only constraints, although it is not documented AFAIK, is that the connection name needs to be acceptable to git-check-ref-format, and it cannot be repeated.
-If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
+[Reference](https://stackoverflow.com/questions/20291731/how-to-connect-to-a-remote-git-repository)
 
 #### Q3. Describe what these Git commands do to the commit history:
 
@@ -325,9 +324,9 @@ modified: beta-notes.js
 #### Q33. After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the git reset --soft HEAD to roll back one commit.
-- [ ] Run git branch -d `<branch name>` to delete the merged branch.
+- [x] Run git branch -d `<branch name>` to delete the merged branch.
 - [ ] Use git clear-all to clean up any hanging files.
-- [x] Run git rebase to move the current commit to its original location.
+- [ ] Run git rebase to move the current commit to its original location.
 
 #### Q34. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
@@ -891,8 +890,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q108. What does the -p option add to the output of the `git log` command?
 
-- [ ] It adds patch output that shows the differences introduced in each commit.
-- [x] It adds patch output that shows a summary listing modified files.
+- [x] It adds patch output that shows the differences introduced in each commit.
+- [ ] It adds patch output that shows a summary listing modified files.
 - [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
 - [ ] It adds the full commit message and notes associated with each commit.
 
@@ -952,12 +951,12 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] a pointer to the most recent commit in the currently checked-out branch
 - [ ] a pointer to where the repository is stored in memory
 
-#### Q117. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+#### Q117. After staging changes to several files, you realize the changes to the config.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
 
 - [ ] git reset HEAD^ -- config.properties
-- [x] git rm config.properties
+- [ ] git rm config.properties
 - [ ] git rf config.properties
-- [ ] git checkout HEAD -- config.properties
+- [x] git checkout HEAD -- config.properties
 
 #### Q118. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
 
@@ -990,3 +989,54 @@ remote repository, named origin, to point to the new remote repository at this l
 - [x] - a separate copy of a repository
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
+
+#### Q122. How can you exclude untracked files within the working directory from a Git repository?
+
+- [ ] - You cannot exclude the files from the repository.
+- [ ] - Tag the files with excluded.
+- [x] - Add a pattern matching the files to the .gitignore file.
+- [ ] - Add the files to the omitted branch
+
+[reference](https://git-scm.com/docs/gitignore)
+
+#### Q123. What command creates a near-exact copy of the entire repository from a server?
+
+- [ ] `git checkout <url>`
+- [ ] `git pull <url>`
+- [x] `git clone <url>`
+- [ ] `git replicate <url>`
+
+#### Q124. What would happen if you ran the `git reset testfile.js` command?
+
+- [ ] testfile.js would be reverted to a blank file.
+- [ ] testfile.js would be reset to its first saved state.
+- [x] testfile.js would be reverted to its last saved copy.
+- [ ] testfile.js would be removed from the stage/index area, if present.
+
+#### Q125. What situation can occur when attempting to combine branches containing changes to the same piece of code?
+
+- [ ] lost code
+- [ ] automatic override
+- [ ] collisions
+- [x] merge conflict
+
+#### Q126. What command creates a near-exact copy of the entire repository from a server?
+
+- [x] git clone <url>
+- [ ] git pull <url>
+- [ ] git replicate <url>
+- [ ] git checkout <url>
+
+#### Q127. When Git workflows contain a topic branch, what purpose does the topic branch serve?
+
+- [ ] Topic branches store unstable code until it is peer reviewed for integration into another feature branch. <url>
+- [x] Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into. <url>
+- [ ] Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall. <url>
+- [ ] Topic branches are short-lived branches used to store work related to a particular feature. <url>
+
+#### Q128. What practice can help reduce the chances of encountering a merge conflict?
+
+- [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
+- [ ] make large commits that introduce multiple featurs. <url>
+- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
+- [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>

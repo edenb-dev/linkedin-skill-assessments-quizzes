@@ -390,9 +390,9 @@
 - [ ] `parsing`
 - [ ] `browsing`
 
-#### Q53. Which HTTP response code describes a new resource as created successfully?
+#### Q53. To create a new resource, what HTTP response code should you receive?
 
-- [ ] `200`
+- [ ] `405`
 - [x] `201`
 - [ ] `204`
 - [ ] `202`
@@ -449,11 +449,11 @@
 
 [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
-#### Q60. When you get a 429 code, what should you do next?
+#### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
-- [ ] Check the API uptime status.
 - [x] Slow down your requests.
+- [ ] Check the API uptime status.
 - [ ] Check you API key.
 
 #### Q61. When exploring record sets, what is the best approach for pagination?
@@ -492,3 +492,12 @@
 - [ ] B,C,F,G
 - [ ] A,D,G,H
 - [ ] A,C,E,G
+
+#### Q65. API traffic that enters and leaves your organization is normally called **\_**?
+
+- [ ] `east-west traffic`
+- [ ] `inbound traffic`
+- [x] `north-south traffic`
+- [ ] `external traffic`
+
+[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)

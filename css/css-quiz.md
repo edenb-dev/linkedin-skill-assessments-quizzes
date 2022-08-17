@@ -1,6 +1,6 @@
 ## CSS
 
-#### Q1. In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
+#### Q1. Among these selectors which selector has the highest specificity ranking for selecting the anchor link element?
 
 ```css
 ul li a
@@ -189,7 +189,7 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
   background-position: 0px 0px;
   ```
 
-#### Q15. In the following example, according to cascading and specificity rules, what color will the link be?
+#### Q15. In this example, according to cascading and specificity rules, what color will the link be?
 
 ```css
 .example {
@@ -1666,7 +1666,7 @@ img {
 <span class="highlight">#BLM</span>
 ```
 
-- [ ] A
+- [x] A
 
 ```css
 .highlight {
@@ -1682,7 +1682,7 @@ img {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```css
 .highlight {
@@ -1697,6 +1697,8 @@ img {
   color: yellow;
 }
 ```
+
+[Highlight Background](<https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular.>)
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
@@ -1926,10 +1928,18 @@ p + section {
 #### Q127. When these pseudo class selectors are applied to a link, what states will the styles be applied to?
 
 ```css
-  a:visited {...}
-  a:active {...}
-  a:hover {...}
-  a:focus {...}
+a:visited {
+  ...;
+}
+a:active {
+  ...;
+}
+a:hover {
+  ...;
+}
+a:focus {
+  ...;
+}
 ```
 
 - [ ] `:visited` styles are applied after the link has been opened.
